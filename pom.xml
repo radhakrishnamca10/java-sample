@@ -26,7 +26,7 @@
         <name>WipDev-snapshots</name>
         <url>http://${artifact_url}:8081/artifactory/helloworld</url>
     </snapshotRepository>
-</distributionManagement>
+  </distributionManagement>
   <build>
     <finalName>helloworld</finalName>
   </build>
