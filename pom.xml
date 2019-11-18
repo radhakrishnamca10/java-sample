@@ -15,6 +15,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>WipDev-releases</name>
+        <url>http://${artifact_url}:8081/artifactory/helloworld</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>WipDev-snapshots</name>
+        <url>http://${artifact_url}:8081/artifactory/helloworld</url>
+    </snapshotRepository>
+</distributionManagement>
   <build>
     <finalName>helloworld</finalName>
   </build>
